@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saivenkat - Portfolio</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">sai venkat⚡</div>
+    <nav class="nav-links" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="toggle-theme" title="Toggle Theme">🌓</div>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Thota Sai venkat</h1>
+    <p>Aspiring Software Developer</p>
+    <img src="IMG-20250315-WA0001.jpg" alt="Profile Photo" />
+    <p>Passionate about building impactful software solutions and continuously learning new technologies.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="timeline">
+      <p><strong> Bachelor of technology in CSE-AIML</strong><br />Tirumala Engineering College, Jonnalagadda<br>CGPA: <b>8.24 </b><small>(2023-present)</small></p>
+      <p><strong>Intermediate-12<sup>th</sup> class</strong><br />Modern Jr College, Chilakaluripet<br />MARKS : <b>921</b>/1000</blockquote><small>(2021-2023)</small></p>
+      <p><strong>SSC - X<sup>th</sup> class </strong><code><br />ST. Xavier's high school, Chilakaluripet<br>CGPA: <b>10</b><small> (2018-2021)</small></p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div>
+        <h3>Programming Languages</h3>
+        <p>Python, C, Java</p>
+      </div>
+      <div>
+        <h3>Web Technologies</h3>
+        <p>HTML, CSS</p>
+      </div>
+      <div>
+        <h3>Tools and IDEs</h3>
+        <p>Visual Studio, GitHub, Eclipse</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Java Banking System</h3>
+        <p>This project is a secure and interactive banking application developed in Java.
+It supports account creation, deposits, withdrawals, balance checks, and transaction history.
+The system uses object-oriented principles and file handling for data management.
+Admin features include customer account management and viewing all transactions.
+It's designed with a user-friendly menu interface for easy navigation.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI Chatbot (Python):</h3>
+        <p>This chatbot uses Python and NLP to simulate human-like conversations.
+It can answer questions, perform tasks, and learn from past interactions.
+The bot uses machine learning models to improve response accuracy over time.
+Custom commands and intents are supported for flexibility and control.
+It has a modular design, making it easy to upgrade or integrate into apps.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <div>Web Development - Internfort</div>
+      <div>Software Development - CodeTech</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 style="text-align: center;">Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div class="social-icons" style="margin-left: 85px; margin-top: 20px;">
+      <a href="https://www.linkedin.com/in/sai-venkat-thota-4b692b341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/3536505.png" style="height: 18px;width: 18px;"/> </a>
+      <a href=" https://github.com/saivenkat27-queue"><img src="/images.png" style="height: 18px; width: 18px;"/></a>
+      <a href="mailto: thotasaivenkat27@gmail.com"><img src="/images (1).png" style="height: 18px;width: 18px;"/></a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 saivenkat. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
